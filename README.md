@@ -17,18 +17,19 @@ Requirements
 - Visual Studio / VS Code 
 - Docker Desktop
 
-1. Running Docker Desktop to make sure docker daemon is running
-2. Running Redis
+1. Running **Docker Desktop** to make sure docker daemon is running
+2. Running Redis:
+
 	Open command prompt  CMD to go to the location where the docker-compose.yaml file is located in the app source code at: 
-	..\TwitterSampledStreamDemo\TwitterService.API
+	**..\TwitterSampledStreamDemo\TwitterService.API**
 	
 3.	Run this in CMD to start docker container running Redis
 	>docker compose up -d
-4.  Set TwitterService.API as Startup Project
+4.  Set **TwitterService.API** as Startup Project
 5. Run TwitterSampledStreamDemo
 
 ## Authentication
-For Twitter API Access, the application will use the ClientId and ClientSecrect that are stored in the appsettings.json to get the token from Twitter API's authentication endpoint:
+For Twitter API Access, the application will use the **ClientId** and **ClientSecrect** that are stored in the appsettings.json to get the token from Twitter API's authentication endpoint:
 https://api.twitter.com/oauth2/token
 
 ![image](https://user-images.githubusercontent.com/54370206/185506995-cd96f82e-72f3-4091-9918-62d1413044b5.png)
