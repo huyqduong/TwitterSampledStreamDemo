@@ -1,11 +1,5 @@
 ﻿using Moq;
 using Shouldly;
-using StackExchange.Redis;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TwitterService.API.Services;
 using TwitterService.Contracts;
 using TwitterService.Entities.Models;
