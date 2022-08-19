@@ -17,8 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoggerService\TwitterService.LoggerService.csproj" />
+    <ProjectReference Include="..\TwitterService.Contracts\TwitterService.Contracts.csproj" />
     <ProjectReference Include="..\TwitterService.Entities\TwitterService.Entities.csproj" />
+    <ProjectReference Include="..\TwitterService.LoggerService\TwitterService.LoggerService.csproj" />
   </ItemGroup>
 
 </Project>

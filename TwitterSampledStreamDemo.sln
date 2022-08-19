@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterService.Contracts", "Contracts\TwitterService.Contracts.csproj", "{6B1F2645-635E-43F3-AAF7-5BB44F169A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterService.Contracts", "TwitterService.Contracts\TwitterService.Contracts.csproj", "{6B1F2645-635E-43F3-AAF7-5BB44F169A63}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterService.LoggerService", "LoggerService\TwitterService.LoggerService.csproj", "{F37963E5-51F1-4FBB-AF3A-E7F16AAC16FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterService.LoggerService", "TwitterService.LoggerService\TwitterService.LoggerService.csproj", "{F37963E5-51F1-4FBB-AF3A-E7F16AAC16FF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterService.Entities", "TwitterService.Entities\TwitterService.Entities.csproj", "{2A2D658B-3AAE-471C-90A2-9173A615AA92}"
 EndProject
