@@ -7,7 +7,7 @@ Twitter Service API communicates with Twitter API to consume a random sample of 
 - Total number of tweets received
 - Top 10 Hashtags
 
-![image](https://user-images.githubusercontent.com/54370206/185518874-8dcb4ea5-45c8-43ef-bc08-a4e781df0635.png)
+![image](https://user-images.githubusercontent.com/54370206/185527020-1c78edd6-60a0-4881-b95b-7dd313777fa1.png)
 
 
 ## Setting up project
