@@ -20,7 +20,7 @@ namespace TwitterService.API.Services
             _tweetRepo = tweetRepo;
         }
 
-        public async Task GetTweetsSampleStreamAsync(HttpResponseMessage response)
+        public async Task GetTweetsSampleStreamAsync(HttpResponseMessage response, CancellationToken cancellationToken)
         {
             var parameters = new Dictionary<string, object>();
             parameters.Add("Method", "GetTweetsSampleStreamAsync");
@@ -32,6 +32,8 @@ namespace TwitterService.API.Services
                 {
                     while (!reader.EndOfStream)
                     {
+                        cancellationToken.ThrowIfCancellationRequested();
+
                         var line = await reader.ReadLineAsync();
 
                         if (!string.IsNullOrWhiteSpace(line))

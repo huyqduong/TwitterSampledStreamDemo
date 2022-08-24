@@ -21,12 +21,12 @@ namespace TwitterService.API.Controllers
         }
 
         [HttpGet("sampled/stream")]
-        public async Task<IActionResult> StartTweetSampledStream()
+        public async Task<IActionResult> StartTweetSampledStream(CancellationToken cancellationToken)
         {
             try
             {
                 var response = await _twitterApiTweetService.GetTweetsSampleStreamResponseAsync();
-                await _twitterApiTweetService.GetTweetsSampleStreamAsync(response);
+                await _twitterApiTweetService.GetTweetsSampleStreamAsync(response, cancellationToken);
 
                 return Ok();
             }

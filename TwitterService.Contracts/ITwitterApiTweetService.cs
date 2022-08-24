@@ -3,6 +3,6 @@
     public interface ITwitterApiTweetService
     {
         Task<HttpResponseMessage> GetTweetsSampleStreamResponseAsync();
-        Task GetTweetsSampleStreamAsync(HttpResponseMessage response);
+        Task GetTweetsSampleStreamAsync(HttpResponseMessage response, CancellationToken cancellationToken);
     }
 }
